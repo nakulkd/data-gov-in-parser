@@ -1,4 +1,5 @@
-# Data.gov.in API Interfacer v1.0 (data-gov-in-parser)
+### Data.gov.in API Interfacer v1.0 (data-gov-in-parser)
+---
 
 **TL;DR:** Python parser for Data.gov.in datasets accessed via API
 
@@ -9,4 +10,10 @@ This program was built to facilitate easier interaction with the API-enabled dat
 3. Default format is set to json. To change the format, explicitly pass `get_format = <format choice available on Data.gov.in for the chosen dataset>`
 4. For json format, the json to dict conversion feature can be used. In the function call, specify if you need this conversion as a boolean parameter.
 5. Default limit is 10 as set by Data.gov.in. To modify the limit, explicitly pass `limit = <value>`.
-6. Optional args for `offset` and `filter` will be included in v2.0.
+
+### Enhancements for v2.0
+---
+
+1. Inclusion of optional args for `offset` and `filter`
+2. Solution for querying all records of the dataset
+3. Conversion option for other download formats (ex: XML)
