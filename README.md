@@ -6,7 +6,7 @@ This program was built to facilitate easier interaction with the API-enabled dat
 
 1. Make sure your personal API key is updated in the 'api.key.txt' notepad as a single line.
 2. Enter the API GET URL as mentioned in the dataset API webpage (ex: /resource/...)
-3. Default format is set to json. To change the format, explicitly pass `get_format` = <format choice available on Data.gov.in for the chosen dataset>
+3. Default format is set to json. To change the format, explicitly pass `get_format = <format choice available on Data.gov.in for the chosen dataset>`
 4. For json format, the json to dict conversion feature can be used. In the function call, specify if you need this conversion as a boolean parameter.
-5. Default limit is 10 as set by Data.gov.in. To modify the limit, explicitly pass `limit` = <value>.
+5. Default limit is 10 as set by Data.gov.in. To modify the limit, explicitly pass `limit = <value>`.
 6. Optional args for `offset` and `filter` will be included in v2.0.
